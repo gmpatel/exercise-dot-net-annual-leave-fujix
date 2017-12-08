@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnualLeave", "AnnualLeave\AnnualLeave.csproj", "{275805B5-3F61-4E1A-B6D3-56F2CB2FEC6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnualLeave.UnitTests", "AnnualLeave.UnitTests\AnnualLeave.UnitTests.csproj", "{D86F223B-BED8-425C-A737-85E5D1961719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnualLeave.CustomLeaveValidators", "AnnualLeave.CustomLeaveValidators\AnnualLeave.CustomLeaveValidators.csproj", "{D8713E35-6F68-4434-9640-884C9A498F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnualLeave.CustomRepositories", "AnnualLeave.CustomRepositories\AnnualLeave.CustomRepositories.csproj", "{792ACF61-322D-4DD7-A6B8-24703049A647}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnualLeave.Logging", "AnnualLeave.Logging\AnnualLeave.Logging.csproj", "{C9C02D20-7DC5-47CE-B8E8-6E2EAEBD1F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnnualLeave.MicrosoftContainer", "AnnualLeave.MicrosoftContainer\AnnualLeave.MicrosoftContainer.csproj", "{75ED098E-0B34-43D2-9B01-CCED61DFCBAE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EE999E0-DE91-4F98-9189-63CB58CF29F5}"
+	ProjectSection(SolutionItems) = preProject
+		CodingTest.pdf = CodingTest.pdf
+		CodingTest.snk = CodingTest.snk
+		CodingTest.zip = CodingTest.zip
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://gmpatel.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AnnualLeave\\AnnualLeave.csproj
+		SccProjectName1 = AnnualLeave
+		SccLocalPath1 = AnnualLeave
+		SccProjectUniqueName2 = AnnualLeave.UnitTests\\AnnualLeave.UnitTests.csproj
+		SccProjectName2 = AnnualLeave.UnitTests
+		SccLocalPath2 = AnnualLeave.UnitTests
+		SccProjectUniqueName3 = AnnualLeave.CustomLeaveValidators\\AnnualLeave.CustomLeaveValidators.csproj
+		SccProjectName3 = AnnualLeave.CustomLeaveValidators
+		SccLocalPath3 = AnnualLeave.CustomLeaveValidators
+		SccProjectUniqueName4 = AnnualLeave.CustomRepositories\\AnnualLeave.CustomRepositories.csproj
+		SccProjectName4 = AnnualLeave.CustomRepositories
+		SccLocalPath4 = AnnualLeave.CustomRepositories
+		SccProjectUniqueName5 = AnnualLeave.Logging\\AnnualLeave.Logging.csproj
+		SccProjectName5 = AnnualLeave.Logging
+		SccLocalPath5 = AnnualLeave.Logging
+		SccProjectUniqueName6 = AnnualLeave.MicrosoftContainer\\AnnualLeave.MicrosoftContainer.csproj
+		SccProjectName6 = AnnualLeave.MicrosoftContainer
+		SccLocalPath6 = AnnualLeave.MicrosoftContainer
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{275805B5-3F61-4E1A-B6D3-56F2CB2FEC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275805B5-3F61-4E1A-B6D3-56F2CB2FEC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275805B5-3F61-4E1A-B6D3-56F2CB2FEC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275805B5-3F61-4E1A-B6D3-56F2CB2FEC6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D86F223B-BED8-425C-A737-85E5D1961719}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D86F223B-BED8-425C-A737-85E5D1961719}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D86F223B-BED8-425C-A737-85E5D1961719}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D86F223B-BED8-425C-A737-85E5D1961719}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8713E35-6F68-4434-9640-884C9A498F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8713E35-6F68-4434-9640-884C9A498F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8713E35-6F68-4434-9640-884C9A498F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8713E35-6F68-4434-9640-884C9A498F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{792ACF61-322D-4DD7-A6B8-24703049A647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{792ACF61-322D-4DD7-A6B8-24703049A647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{792ACF61-322D-4DD7-A6B8-24703049A647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{792ACF61-322D-4DD7-A6B8-24703049A647}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C02D20-7DC5-47CE-B8E8-6E2EAEBD1F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C02D20-7DC5-47CE-B8E8-6E2EAEBD1F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C02D20-7DC5-47CE-B8E8-6E2EAEBD1F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C02D20-7DC5-47CE-B8E8-6E2EAEBD1F67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75ED098E-0B34-43D2-9B01-CCED61DFCBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75ED098E-0B34-43D2-9B01-CCED61DFCBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75ED098E-0B34-43D2-9B01-CCED61DFCBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75ED098E-0B34-43D2-9B01-CCED61DFCBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
